@@ -1,0 +1,45 @@
+body {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  background-color: #dc2b33;
+  min-height: 100%;
+  min-width: 100%;
+  overflow: hidden;
+  color: white;
+}
+
+div#content {
+  width: 300px;
+  position: absolute;
+  top: 200px;
+  left: calc(50vw - 150px);
+  text-align: center;
+}
+
+#incall-buttons {
+  display: none;
+}
+
+.volume-wrapper {
+  width: 300px;
+  height: 40px;
+  border: 2px solid white;
+  margin-bottom: 25px;
+  display: block;
+}
+
+.volume-bar {
+  height: 40px;
+  display: block;
+}
+
+button {
+  width: 130px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  margin-bottom: 25px;
+}

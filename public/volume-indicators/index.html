@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div id="content">
+      <div id="precall-buttons">
+        <button id="call-button" disabled>Call</button>
+        <button id="test-mic-button">Test Mic</button>
+      </div>
+      <div id="incall-buttons">
+        <button id="hangup-button">Hang Up</button>
+      </div>
+
+      <label>Mic Volume</label>
+      <div class="volume-wrapper">
+        <div class="volume-bar" id="mic-volume"></div>
+      </div>
+
+      <label>Speaker Volume</label>
+      <div class="volume-wrapper">
+        <div class="volume-bar" id="speaker-volume"></div>
+      </div>
+    </div>
+
+    <script src="https://media.twiliocdn.com/sdk/js/client/v1.4/twilio.min.js"></script>
+    <script src="/lib/getToken.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
