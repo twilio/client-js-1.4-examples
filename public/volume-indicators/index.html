@@ -6,25 +6,22 @@
     <div id="content">
       <div id="precall-buttons">
         <button id="call-button" disabled>Call</button>
-        <button id="test-mic-button">Test Mic</button>
+        <button id="test-mic-button" disabled>Test Mic</button>
       </div>
       <div id="incall-buttons">
         <button id="hangup-button">Hang Up</button>
       </div>
 
       <label>Mic Volume</label>
-      <div class="volume-wrapper">
-        <div class="volume-bar" id="mic-volume"></div>
-      </div>
+      <div class="volume-wrapper" id="mic-wrapper"></div>
 
       <label>Speaker Volume</label>
-      <div class="volume-wrapper">
-        <div class="volume-bar" id="speaker-volume"></div>
-      </div>
+      <div class="volume-wrapper" id="speaker-wrapper"></div>
     </div>
 
     <script src="https://media.twiliocdn.com/sdk/js/client/v1.4/twilio.min.js"></script>
     <script src="/lib/getToken.js"></script>
+    <script src="js/volumeIndicator.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
