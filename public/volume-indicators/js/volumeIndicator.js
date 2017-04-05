@@ -51,15 +51,9 @@ function VolumeIndicator(options) {
 
   // Set all properties as read-only.
   Object.defineProperties(this, {
-    _barElement: {
-      value: barEl
-    },
-    _determineColor: {
-      value: options.determineColor
-    },
-    _scaleDimension: {
-      value: options.vertical ? 'height' : 'width'
-    },
+    _barElement: { value: barEl },
+    _determineColor: { value: options.determineColor },
+    _scaleDimension: { value: options.vertical ? 'height' : 'width' },
     element: {
       enumerable: true,
       value: wrapperEl

@@ -1,0 +1,21 @@
+#incall-buttons {
+  display: none;
+}
+
+.volume-wrapper {
+  width: 300px;
+  height: 40px;
+  border: 2px solid black;
+  margin-bottom: 25px;
+  display: block;
+}
+
+button {
+  width: 130px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+  margin-bottom: 25px;
+}

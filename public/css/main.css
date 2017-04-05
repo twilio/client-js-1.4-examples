@@ -1,0 +1,13 @@
+div#content {
+  width: 300px;
+  position: absolute;
+  top: 200px;
+  left: calc(50vw - 150px);
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  margin-top: 20px;
+}
