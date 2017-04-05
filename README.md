@@ -9,10 +9,14 @@ This repository contains implementation examples for the Audio API features incl
 This example illustrates how the `Connection.volume()` and `Device.Audio.inputVolume()` handlers can be used to
 create visual volume indicator bars.
 
+![Example 1 Screenshot](images/example1.png)
+
 ### 2. Waveform Visualization
 
 This example illustrates how the MediaStream returned by `Connection.getLocalStream()` or `Connection.getRemoteStream()`
 can be used to create a visualization of the audio track.
+
+![Example 2 Screenshot](images/example2.png)
 
 ## Install & Run
 
