@@ -13,6 +13,7 @@ getToken('alice').then(token => {
 
 // Testing mic before making a call using Device.audio.
 function startMicTest() {
+  testMicButton.blur();
   Twilio.Device.audio.setInputDevice('default').then(() => {
     testMicButton.innerText = 'Stop Testing';
     testMicButton.onclick = stopMicTest;
@@ -22,6 +23,7 @@ function startMicTest() {
 }
 
 function stopMicTest() {
+  testMicButton.blur();
   Twilio.Device.audio.unsetInputDevice();
   testMicButton.innerText = 'Test Mic';
   testMicButton.onclick = startMicTest;

@@ -22,6 +22,7 @@ getToken('alice').then(token => {
 callButton.onclick = makeCall;
 
 function makeCall() {
+  callButton.blur();
   stopMicTest();
   Twilio.Device.connect();
 }
@@ -55,6 +56,7 @@ function setInputVolume(volume) {
 }
 
 function startMicTest() {
+  testMicButton.blur();
   Twilio.Device.audio.setInputDevice('default').then(() => {
     Twilio.Device.audio.on('inputVolume', setInputVolume);
     testMicButton.innerText = 'Stop Testing';
@@ -66,6 +68,7 @@ function startMicTest() {
 }
 
 function stopMicTest() {
+  testMicButton.blur();
   Twilio.Device.audio.removeListener('inputVolume', setInputVolume);
   testMicButton.innerText = 'Test Mic';
   testMicButton.onclick = startMicTest;
