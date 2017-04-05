@@ -2,22 +2,6 @@
 
 This repository contains implementation examples for the Audio API features included in Twilio Client JS 1.4.
 
-## Current Examples
-
-### 1. Volume Indicators
-
-This example illustrates how the `Connection.volume()` and `Device.Audio.inputVolume()` handlers can be used to
-create visual volume indicator bars.
-
-![Example 1 Screenshot](images/example1.png)
-
-### 2. Waveform Visualization
-
-This example illustrates how the MediaStream returned by `Connection.getLocalStream()` or `Connection.getRemoteStream()`
-can be used to create a visualization of the audio track.
-
-![Example 2 Screenshot](images/example2.png)
-
 ## Install & Run
 
 This repository contains the server-side component needed to generate tokens. In order to run the examples, you will
@@ -39,3 +23,19 @@ PORT=1337 npm start
 
 Once running, you can open the index page by opening `http://localhost:3030` (or your custom port) in your
 browser.
+
+## Current Examples
+
+### 1. Volume Indicators
+
+This example illustrates how the `Connection.volume()` and `Device.Audio.inputVolume()` handlers can be used to
+create visual volume indicator bars.
+
+<img alt="Example 1 Screenshot" src="images/example1.png" height="200px" />
+
+### 2. Waveform Visualization
+
+This example illustrates how the MediaStream returned by `Connection.getLocalStream()` or `Connection.getRemoteStream()`
+can be used to create a visualization of the audio track.
+
+<img alt="Example 2 Screenshot" src="images/example2.png" height="200px" />
