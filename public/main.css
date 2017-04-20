@@ -11,3 +11,45 @@ ul {
   text-align: left;
   margin-top: 20px;
 }
+
+button {
+  font-size: 20px;
+  border: 0;
+  padding: 0 30px;
+  height: 45px;
+  line-height: 45px;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+button.primary, button.primary:disabled:hover {
+  color: white;
+  background-color: #F22F46;
+}
+
+button.primary:hover {
+  background-color: #C41025;
+}
+
+button.primary:disabled {
+  opacity: 0.25;
+}
+
+button.secondary, button.secondary:disabled:hover {
+  line-height: 43px;
+  border: 1px solid black;
+  color: #666;
+  background-color: white;
+}
+
+button.secondary:hover {
+  color: black;
+  background-color: white;
+}
+
+button.secondary:disabled {
+  opacity: 0.25;
+}

@@ -11,10 +11,9 @@
 }
 
 button {
-  width: 130px;
-  height: 40px;
-  font-size: 20px;
-  text-align: center;
-  border-radius: 5px;
   margin-bottom: 25px;
+}
+
+button:nth-child(2) {
+  margin-left: 20px;
 }
