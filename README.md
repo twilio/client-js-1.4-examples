@@ -31,11 +31,11 @@ browser.
 This example illustrates how the `Connection.volume()` and `Device.Audio.inputVolume()` handlers can be used to
 create visual volume indicator bars.
 
-<img alt="Example 1 Screenshot" src="images/example1.png" height="200px" />
+<img alt="Example 1 Screenshot" src="images/volume-indicators.gif" height="200px" />
 
 ### 2. Waveform Visualization
 
 This example illustrates how the MediaStream returned by `Connection.getLocalStream()` or `Connection.getRemoteStream()`
 can be used to create a visualization of the audio track.
 
-<img alt="Example 2 Screenshot" src="images/example2.png" height="200px" />
+<img alt="Example 2 Screenshot" src="images/waveform.gif" height="200px" />
